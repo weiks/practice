@@ -1,0 +1,111 @@
+[16-Aug-2016 14:40:26 America/Denver] PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home1/weiksner/public_html/perfectpractice/twilio.php on line 17
+[16-Aug-2016 14:40:26 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home1/weiksner/public_html/perfectpractice/twilio.php on line 17
+[16-Aug-2016 14:42:52] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home1/weiksner/public_html/perfectpractice/twilio.php on line 18
+[16-Aug-2016 14:54:10] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home1/weiksner/public_html/perfectpractice/twilio.php on line 18
+[16-Aug-2016 14:56:03] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home1/weiksner/public_html/perfectpractice/twilio.php on line 24
+[16-Aug-2016 14:58:15] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home1/weiksner/public_html/perfectpractice/twilio.php on line 10
+[16-Aug-2016 14:58:54] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home1/weiksner/public_html/perfectpractice/twilio.php on line 10
+[16-Aug-2016 15:01:20] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home1/weiksner/public_html/perfectpractice/twilio.php on line 10
+[16-Aug-2016 15:02:14] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home1/weiksner/public_html/perfectpractice/twilio.php on line 10
+[16-Aug-2016 15:09:29] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home1/weiksner/public_html/perfectpractice/twilio.php on line 10
+[16-Aug-2016 15:11:03] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '~/public_html/perfectpractice/twilio-php-master/Services/Twilio.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home1/weiksner/public_html/perfectpractice/twilio.php on line 9
+[16-Aug-2016 15:13:15] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '~/public_html/perfectpractice/twilio-php-master/Twilio/autoload.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home1/weiksner/public_html/perfectpractice/twilio.php on line 9
+[16-Aug-2016 15:13:41] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home1/weiksner/public_html/perfectpractice/twilio.php on line 10
+[16-Aug-2016 16:48:07 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 16:48:07 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 16:48:29 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 16:48:29 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 16:55:46 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 16:55:46 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 16:56:01 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 16:56:01 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 16:56:18 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 16:56:18 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 16:56:53 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 16:56:53 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 17:02:57 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 17:02:57 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 17:03:04 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 17:03:04 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 17:10:57 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 17:10:57 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 17:11:00 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 17:11:00 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 17:19:57 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 17:19:57 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 17:25:17 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 17:25:17 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 17:27:54 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 17:27:54 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 17:27:59 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 17:27:59 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 17:28:20 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 17:28:20 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 17:28:23 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 17:28:23 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 17:29:21 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 17:29:21 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 17:30:04 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 17:30:04 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 17:30:07 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 17:30:07 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 17:30:24 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 17:30:24 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 17:30:28 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 17:30:28 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 17:30:48 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 17:30:48 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 17:32:10 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 17:32:10 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 17:32:30 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 17:32:30 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 17:35:46 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 17:35:46 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 17:35:48 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 17:35:48 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 17:36:43 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 17:36:43 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 17:36:43 America/Denver] PHP Warning:  getenv() expects at least 1 parameter, 0 given in /home1/weiksner/public_html/perfectpractice/test.php on line 5
+[16-Aug-2016 17:36:45 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 17:36:45 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 17:36:45 America/Denver] PHP Warning:  getenv() expects at least 1 parameter, 0 given in /home1/weiksner/public_html/perfectpractice/test.php on line 5
+[16-Aug-2016 17:37:03 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 17:37:03 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 17:37:03 America/Denver] PHP Warning:  getenv() expects at least 1 parameter, 0 given in /home1/weiksner/public_html/perfectpractice/test.php on line 5
+[16-Aug-2016 17:38:29 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 17:38:29 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 17:39:59 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 17:39:59 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 17:39:59 America/Denver] PHP Parse error:  syntax error, unexpected 'PATH' (T_STRING) in /home1/weiksner/public_html/perfectpractice/test.php on line 6
+[16-Aug-2016 17:40:35 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 17:40:35 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 17:40:35 America/Denver] PHP Notice:  Undefined index: PATH in /home1/weiksner/public_html/perfectpractice/test.php on line 6
+[16-Aug-2016 17:41:05 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 17:41:05 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 17:41:54 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 17:41:54 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 17:42:54 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 17:42:54 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 17:43:22 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 17:43:22 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 17:44:13 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 17:44:13 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 17:54:23 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 17:54:23 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 18:32:04 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 18:32:04 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 18:34:26 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 18:34:26 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 18:34:26 America/Denver] PHP Parse error:  syntax error, unexpected '&' in /home1/weiksner/public_html/perfectpractice/name.php on line 5
+[16-Aug-2016 18:34:52 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 18:34:52 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 18:42:26 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 18:42:26 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 18:42:28 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 18:42:28 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 18:42:29 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 18:42:29 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 18:57:22 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 18:57:22 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0
+[16-Aug-2016 18:58:35 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/http.so' - /usr/php/56/usr/lib64/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Aug-2016 18:58:35 America/Denver] PHP Warning:  Module 'OAuth' already loaded in Unknown on line 0

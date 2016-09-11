@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script type="text/javascript">
+            function loadPage(href)
+            {
+                var xmlhttp = new XMLHttpRequest();
+                xmlhttp.open("GET", href, false);
+                xmlhttp.send();
+                return xmlhttp.responseText;
+            }
+        </script>
+    </head>
+
+    <body>
+        <div onClick="document.getElementById('bottom').innerHTML = 
+                      loadPage('name.php?instrument=oboe&book=2');">Home</div>
+
+        <div id="bottom"></div>
+    </body>
+
+</html>
+

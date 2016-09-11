@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<!--<head></head>
+<a href="https://appear.in/violin-book-4" class="button">Enter Room</a>
+
+<iframe src="https://appear.in/violin-book-4" width="800" height="640" frameborder="0"></iframe>
+violin/cell
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=oBDmAxSFt6A"></iframe>
+    viola
+    https://www.youtube.com/watch?v=UOTaN9byALc
+    bass
+    https://www.youtube.com/watch?v=PNYuRbsSJYw
+</div>-->
+</html>
+<FORM METHOD="LINK" ACTION="book.html">
+Type your first name: <INPUT TYPE="text" NAME="FirstName"> 
+Type your last name: <INPUT TYPE="text" NAME="LastName"> 
+<INPUT TYPE="submit" VALUE="Click and See">
+</FORM>
+<FORM NAME="joe">
+<INPUT TYPE="hidden" NAME="burns">
+</FORM>
+
+<SCRIPT LANGUAGE="javascript">
+
+var locate = window.location
+document.joe.burns.value = locate
+
+var text = document.joe.burns.value
+
+function delineate(str)
+{
+theleft = str.indexOf("=") + 1;
+theright = str.lastIndexOf("&");
+return(str.substring(theleft, theright));
+}
+document.write("First Name is " +delineate(text));
+
+ </SCRIPT>
+ <!-- <FORM NAME="bull">
+Last Name: <INPUT TYPE="text" NAME="bear">
+</FORM>-->
+
+<SCRIPT LANGUAGE="javascript">
+var zork = delineate2(text)
+document.bull.bear.value = zork
+document.write("first Name is " +delineate2(text));
+</SCRIPT>

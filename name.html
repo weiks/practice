@@ -1,0 +1,29 @@
+<table>
+	<p align="top"><button class = "margin" type="button" class="btn btn-default navbar-btn"><a href="http://perfectpractice.co"> Back Button</a></button></p>
+	<iframe class = "margin" id="video" src="" width="800" height="640" frameborder="0"></iframe>
+</table>
+<style type="text/css">
+
+</style>
+<script>
+function getParameterByName(instrument, url) {
+    if (!url) url = window.location.href;
+    instrument = instrument.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + instrument + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+   	if (!results) return null;
+    if (!results[2]) return instrument + book;
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+
+var instrument = getParameterByName('instrument'); // "lorem"
+var book = getParameterByName('book'); // "" (present with empty value)
+var url = "https://appear.in/" +instrument +book;
+document.getElementById("video").src = url;
+</script>
+
+<?php
+$url = "https://appear.in/" . $_GET['instrument'] . $_GET['book'];
+system("/home1/weiksner/python27/bin/python test.py " . $url);
+
+?>
