@@ -51,7 +51,7 @@
           </div>
           <div class="form-group" style="position: static;">
               <label for="input-id-2">Start time</label>
-              <input value="42" type="number" class="form-control" id="videoStartTime" placeholder="42">
+              <input value="10" type="number" class="form-control" id="videoStartTime" placeholder="10">
               <p class="help-block">Number in seconds</p>
           </div>
           <div class="form-group" style="position: static;">
@@ -156,7 +156,7 @@
       var keepGoing = true;
       function onPlayerStateChange(event) {
         if (event.data == YT.PlayerState.PLAYING && !done) {
-          setTimeout(stopVideo, duration*1200);  // record for 120% of the time of the loop
+          setTimeout(stopVideo, duration*1000); 
           done = true;
         }
       }
@@ -181,7 +181,7 @@
             
             //document.getElementById('recorded').addEventListener('ended', playYoutubeVideoForSeconds, false).removeAttribute("muted");
   
-          }, duration * 1000);
+          }, (duration+1) * 1000);  
         },500)
        
       }
