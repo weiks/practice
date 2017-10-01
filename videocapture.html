@@ -76,9 +76,11 @@
       </form>
   </div>
 
-  <a href="#" onclick="window.event.preventDefault(); loopVideo('jhqVWsFicBc',10,6,0.5)">Twinkle Twinkle</a>
-
+  <button class="btn btn-default" onclick="window.event.preventDefault(); loopVideo('ALt5VR3rOEo',10,6,0.75)">Bach Double 2nd Violin</Button>
+  <button class="btn btn-default" onclick="window.event.preventDefault(); loopVideo('FewFUFloses',10,6,0.75)">Bach Double 1st Violin</Button>
+  <button class="btn btn-default" onclick="window.event.preventDefault(); loopVideo('dEpfrDiX73U',10,6,0.75)">Bach Gavotte</Button>
     <script>
+     
      
       window.onload = function () {
         var videoForm = document.getElementById('video-form')
@@ -119,6 +121,12 @@
             'onStateChange': onPlayerStateChange
           }
       });
+  
+//  changePresets(_visibility) {
+//    console.log("presets")
+//    for (let el of document.querySelectorAll('.preset')) el.style.visibility = _visibility ;
+//  }
+
         
       var startTime
       var duration
@@ -127,6 +135,7 @@
   
       videoForm.onsubmit = function(e) {
         e.preventDefault()
+//        changePresets('hidden')
         var splits = document.getElementById('videoUrl').value.split("=")
 
         loopVideo(
