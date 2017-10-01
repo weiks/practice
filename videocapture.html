@@ -126,16 +126,17 @@
       videoForm.onsubmit = function(e) {
         e.preventDefault()
         var splits = document.getElementById('videoUrl').value.split("=")
-        
+
         loopVideo(
           // If a url is provided, we will have two splits, otherwise if an id is provided, we have just one
           splits[1] || splits[0],
           +document.getElementById('videoStartTime').value,
-          +document.getElementById('videoDuration').value
+          +document.getElementById('videoDuration').value,
+          +document.getElementById('videoSpeed').value
         )
       }
   
-      var loopVideo = window.loopVideo = function (_videoId, _startTime, _duration, seek) {
+      var loopVideo = window.loopVideo = function (_videoId, _startTime, _duration, vSpeed, seek) {
         
         videoForm.style.display = 'none'
         duration = _duration;
@@ -143,10 +144,9 @@
         videoId = _videoId
         status.textContent = "Playing the youtube video (" + duration + " seconds)"
         done = false;
+        player.setPlaybackRate(vSpeed)
         showPlayer()
-        var vSpeed = document.getElementById('videoSpeed').value
-        player.setPlaybackRate(document.getElementById('videoSpeed').value)
-        console.log("hi",vSpeed,document.getElementById('videoSpeed').value )
+
         player.setPlaybackRate(vSpeed)
         if (seek) {
           player.seekTo(startTime)
@@ -189,8 +189,6 @@
             
             callback()
             
-            //document.getElementById('recorded').addEventListener('ended', playYoutubeVideoForSeconds, false).removeAttribute("muted");
-  
           }, (duration+1) * 1000);  
         },500)
        
