@@ -26,6 +26,7 @@
   <link rel="icon" sizes="192x192" href="../../../images/webrtc-icon-192x192.png">
   <link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="../../../css/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   <script src="https://www.youtube.com/iframe_api"></script>
   <style>
     canvas {
@@ -40,47 +41,47 @@
     <div id="youtube-player">
       <div id="player"></div>
     </div>
-    <form id="video-form">
+    <form id="video-form" style="width:400px" class="mx-auto">
     
     <div class="row">
       <div class="col-md-12">
-          <div class="form-group" style="">
-              <label for="input-text-1">video link</label>
+          <div class="form-group" >
+              <label for="input-text-1" class="help-block">Video Link</label>
               <input value="https://www.youtube.com/watch?v=ALt5VR3rOEo" type="text" class="form-control" id="videoUrl" placeholder="https://youtube.com/watch?v=...">
-              <p class="help-block">The video link</p>
           </div>
           <div class="form-group" style="position: static;">
-              <label for="input-id-2">Start time</label>
+              <label for="input-id-2" class="help-block">Start time(seconds)</label>
               <input value="10" type="number" class="form-control" id="videoStartTime" placeholder="10">
-              <p class="help-block">Number in seconds</p>
           </div>
           <div class="form-group" style="position: static;">
-              <label for="input-id-3">Duration</label>
+              <label for="input-id-3" class="help-block">Duration(seconds)</label>
               <input value="4" type="number" class="form-control" id="videoDuration" placeholder="4">
-              <p class="help-block">Duration in seconds</p>
           </div>
           <div class="form-group" style="position: static;">
-              <label for="input-id-4">Number of Iterations</label>
+              <label for="input-id-4" class="Enter Iterations">Number of Iterations</label>
               <input value="3" type="number" class="form-control" id="videoIterations" placeholder="3">
-              <p class="Enter Iterations">Number in Times to Loop</p>
           </div>
           <div class="form-group" style="position: static;">
-              <label for="input-id-5">Speed</label>
+              <label for="input-id-5" class="Speed-block">Speed(Decimal)</label>
               <input value="1" type="number" step="0.25" class="form-control" id="videoSpeed" placeholder="1">
-              <p class="Speed-block">Speed(decimal)</p>
           </div>
           <div class="form-group" style="padding-right: 20px; position: static;">
-              <button type="submit" class="btn btn-default">Start</button>
+              <button type="submit" class="btn btn-success">Start</button>
           </div>
       </div>
       </form>
   </div>
+  <div class="text-center">
+        <button class="btn btn-info" onclick="window.event.preventDefault(); loopVideo('ALt5VR3rOEo',10,6,0.75)">Bach Double 2nd Violin</Button>
 
-  <button class="btn btn-default" onclick="window.event.preventDefault(); loopVideo('ALt5VR3rOEo',10,6,0.75)">Bach Double 2nd Violin</Button>
-  <button class="btn btn-default" onclick="window.event.preventDefault(); loopVideo('FewFUFloses',10,6,0.75)">Bach Double 1st Violin</Button>
-  <button class="btn btn-default" onclick="window.event.preventDefault(); loopVideo('dEpfrDiX73U',10,6,0.75)">Bach Gavotte</Button>
+        <button class="btn btn-info" onclick="window.event.preventDefault(); loopVideo('FewFUFloses',10,6,0.75)">Bach Double 1st Violin</Button>
+
+        <button class="btn btn-info" onclick="window.event.preventDefault(); loopVideo('dEpfrDiX73U',10,6,0.75)">Bach Gavotte</Button>
+  </div>
+</div>
+  
+  
     <script>
-     
      
       window.onload = function () {
         var videoForm = document.getElementById('video-form')
