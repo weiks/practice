@@ -76,6 +76,8 @@
       </form>
   </div>
 
+  <a href="#" onclick="window.event.preventDefault(); loopVideo('jhqVWsFicBc',10,6,0.5)">Twinkle Twinkle</a>
+
     <script>
      
       window.onload = function () {
@@ -136,12 +138,13 @@
         )
       }
   
-      var loopVideo = window.loopVideo = function (_videoId, _startTime, _duration, vSpeed, seek) {
+      var loopVideo = window.loopVideo = function (_videoId, _startTime, _duration, _vSpeed, seek) {
         
         videoForm.style.display = 'none'
         duration = _duration;
         startTime = _startTime
         videoId = _videoId
+        vSpeed = _vSpeed
         status.textContent = "Playing the youtube video (" + duration + " seconds)"
         done = false;
         player.setPlaybackRate(vSpeed)
@@ -212,7 +215,7 @@
               iteration=iteration + 1
               console.log("iteration",iteration)
             }
-            loopVideo(videoId, startTime, duration, true)
+            loopVideo(videoId, startTime, duration, vSpeed, true)
           });
         });
         
