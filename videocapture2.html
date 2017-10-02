@@ -79,6 +79,31 @@
         <button class="btn btn-info" onclick="window.event.preventDefault(); loopVideo('dEpfrDiX73U',10,6,0.75)">Bach Gavotte</Button>
   </div>
 </div>
+
+		<h1><abbr title="HyperText Markup Language 5">HTML5</abbr> Video Voice Control with the Web Speech <abbr title="Application Programming Interface">API</abbr></h1>
+		<p>Read the related <a href="http://www.iandevlin.com/blog/2014/01/javascript/using-the-web-speech-api-to-control-a-html5-video/">article</a>.</p>
+		<div class="msg" data-state="hidden">This browser doesn't support the WebKit Web Speech <abbr title="Application Programming Interface">API</abbr>. You need the latest version of Chrome. Sorry!</div>
+		<video id="v" controls preload="metadata">
+			<source src="video/big-buck-bunny.mp4" type="video/mp4">
+		</video>
+		<div class="rec-status">Recogniser status:<span id="recStatus">not recognising</span></div>
+		<button id="startRecBtn">Start Recognition</button>
+		<button id="stopRecBtn">Stop Recognition</button>
+		<p>Click "Start Recognition", give microphone access permission and start controlling the video's playback, mute and volume control via speech.<br>Available commands are:</p>
+		<ul>
+			<li id="vidPlay">"video play"</li>
+			<li id="vidStop">"video stop"</li>
+			<li id="vidReplay">"video replay"</li>
+			<li id="vidVolOn">"video volume on"</li>
+			<li id="vidVolOff">"video volume off"</li>
+			<li id="vidVolInc">"video volume increase"</li>
+			<li id="vidVolDec">"video volume decrease"</li>
+		</ul>
+	</main>
+	<script src="js/video-speech.js" defer></script>
+  
+  
+  
   
     <script>
      
