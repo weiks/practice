@@ -36,6 +36,14 @@
 </head>
 
 <body>
+  <div>
+    <button onclick="start()">start recognition</button>
+    <span id="recognitionResult">result</span>
+  </div>
+  <div>
+    <input type="input" name="text" id="synthesisText">
+    <button onclick="speak()">speak</button>
+  </div>
   <div id="container">
     <p id="status"></p>
     <div id="youtube-player">
@@ -71,12 +79,10 @@
       </div>
       </form>
   </div>
-  <hr>
-  <div class ="text-center"><h5>Want an idea to get started? Try one of these songs!</h2></div>
   <div class="text-center">
-        <button class="btn btn-info" onclick="window.event.preventDefault(); loopVideo('HD1eW9CO5so',12,3,1)">Twinkle Variations</Button>
-        <button class="btn btn-info" onclick="window.event.preventDefault(); loopVideo('bZ_BoOlAXyk',65,4,1)">Viva La Vida</Button>
-        <button class="btn btn-info" onclick="window.event.preventDefault(); loopVideo('TKthRw4KjEg',3,3,1)">Spring from the Four Seasons</Button>
+        <button class="btn btn-info" onclick="window.event.preventDefault(); loopVideo('ALt5VR3rOEo',10,6,1)">Bach Double 2nd Violin</Button>
+        <button class="btn btn-info" onclick="window.event.preventDefault(); loopVideo('FewFUFloses',18,6,0.75)">Bach Double 1st Violin</Button>
+        <button class="btn btn-info" onclick="window.event.preventDefault(); loopVideo('dEpfrDiX73U',7,6,0.5)">Bach Gavotte</Button>
   </div>
 </div>
   
@@ -470,3 +476,7 @@
     background-color:#00965A;
   }
 </script>
+
+<script src="./js/speechRecognition.js"></script>
+<script src="./js/speechSynthesizer.js"></script>
+</html>
