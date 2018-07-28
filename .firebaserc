@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "prod": "solo-practice",
+    "default": "solo-practice"
+  }
+}

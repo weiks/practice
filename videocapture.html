@@ -76,10 +76,10 @@
   <div class="text-center">
         <button class="btn btn-info" onclick="window.event.preventDefault(); loopVideo('HD1eW9CO5so',12,3,1)">Twinkle Variations</Button>
         <button class="btn btn-info" onclick="window.event.preventDefault(); loopVideo('bZ_BoOlAXyk',65,4,1)">Viva La Vida</Button>
-        <button class="btn btn-info" onclick="window.event.preventDefault(); loopVideo('TKthRw4KjEg',3,3,1)">Spring from the Four Seasons</Button>
+        <button class="btn btn-info" onclick="window.event.preventDefault(); loopVideo('zzE-kVadtNw',4,3,1)">Spring from the Four Seasons</Button>
   </div>
 </div>
-  
+<script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>  
     <script>
      
       window.onload = function () {
@@ -152,6 +152,7 @@
         videoForm.style.display = 'none'
         duration = _duration;
         startTime = _startTime
+        //console.log(startTime)
         videoId = _videoId
         vSpeed = _vSpeed
         status.textContent = "Playing the youtube video (" + duration + " seconds)"
@@ -160,10 +161,16 @@
         showPlayer()
 
         player.setPlaybackRate(vSpeed)
+        console.log(seek)
         if (seek) {
-          player.seekTo(startTime)
-        } else {
+          console.log(startTime)
           player.cueVideoById(videoId, startTime);
+          //player.seekTo(startTime,true)
+          console.log('Marshmallow equality')
+        } else {
+          console.log(startTime)
+          player.cueVideoById(videoId, startTime);
+          console.log('carrot')
         }
         player.playVideo();
         
@@ -216,13 +223,54 @@
             hideVideo()
             recorded.style.display = "none"
             console.log("hello")
-            if (iteration>document.getElementById('videoIterations').value-1) {
-              startTime = startTime+duration*2/3
-              iteration=0
-              console.log("move ahead, reset iteration", iteration)
+            if (iteration>=document.getElementById('videoIterations').value-1) {
+              var bananaSplit = function(){
+                startTime = startTime+duration*2/3
+                iteration=0
+                console.log("move ahead, reset iteration", iteration)
+              }
+              bananaSplit()
             } else {
-              iteration=iteration + 1
-              console.log("iteration",iteration)
+              var celeryPhone = function(){
+                iteration=iteration + 1
+                console.log("iteration",iteration)
+              }
+              celeryPhone()
+            }
+            /*global annyang*/
+            //var z =5;
+            if (annyang) {
+              // Let's define a command.
+              var commands = {
+                'hello': function() { alert('Hello world!'); },
+                
+                //'repeat':function(){ alert('Pete and Re-Pete were on a boat. Pete fell off. Who was left?'); },
+                'repeat ':function(){
+                  iteration=0;
+                  celeryPhone()
+                  //z += 1;
+                  console.log(iteration);
+                },
+                'move on ':function(){
+                  iteration = document.getElementById('videoIterations').value+1;
+                  bananaSplit()
+                  //z -= 1;
+                  console.log(iteration)
+                },
+                'test':function(){
+                  alert('hi');
+                },
+                'start over ':function(){
+                  //z = 0;
+                  //console.log(z)
+                }
+                
+              };
+              
+              // Add our commands to annyang
+              annyang.addCommands(commands);
+              // Start listening.
+              annyang.start();
             }
             loopVideo(videoId, startTime, duration, vSpeed, true)
           });
